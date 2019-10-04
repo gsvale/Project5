@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@color/colorCyan">
+
+    <ImageView
+        android:id="@+id/location_icon_iv_id"
+        android:layout_width="@dimen/icon_item_size"
+        android:layout_height="@dimen/icon_item_size"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="@dimen/list_item_margin_left"
+        android:layout_marginStart="@dimen/list_item_margin_left"
+        android:layout_marginRight="@dimen/list_item_margin_left"
+        android:layout_marginEnd="@dimen/list_item_margin_left"
+        android:src="@drawable/ic_launcher_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/location_icon_iv_id"
+        android:layout_toEndOf="@id/location_icon_iv_id"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/location_info_ll_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/location_name_tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size_17"
+                android:textStyle="bold"
+                android:gravity="center"
+                tools:text="Location Name" />
+
+            <TextView
+                android:id="@+id/location_opening_time_tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size_15"
+                android:textStyle="italic"
+                android:gravity="center"
+                tools:text="Location Opening Time" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

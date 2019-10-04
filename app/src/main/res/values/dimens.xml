@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_height">125dp</dimen>
+    <dimen name="list_item_padding">35dp</dimen>
+    <dimen name="list_item_margin_left">35dp</dimen>
+    <dimen name="icon_item_size">75dp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+</resources>
